@@ -5,6 +5,8 @@ This AI assistant solves some of the problems like what are the various club act
 
 This AI assistant works on a layer implementing RAG with the API of Gemini("gemini-3.5-flash"). The speciality of this chatbot is that whenever it does not know the answer of any question it explicitly says that it don't know instaed of just beating the bush and giving self cooked answers.
 
+This AI assistant runs on a web interface made from Gardio.
+
 ## The RAG pipeline works as follows:-
 ### 1. Dataset
 The pdfs, website links of various clubs and and tech teams are used as he dataset for this rag pipeline. For pdfs it extract text from all the non-empty pages and store them as a dictionary name loaded with new line and appended to the dictionary named doc which collect data from all the sources. In case of the websites it scraps all the texts and appends it to docs.
